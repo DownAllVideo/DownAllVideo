@@ -1,1 +1,146 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DownVido - Video Downloader</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #111827;
+}
+
+header {
+    background: white;
+    padding: 18px 7%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #6b7280;
+    margin-bottom: 35px;
+}
+
+.download-box {
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    padding: 8px;
+    border-radius: 14px;
+    display: flex;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.download-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 17px;
+    font-size: 16px;
+}
+
+.download-box button {
+    border: none;
+    background: #2563eb;
+    color: white;
+    padding: 0 28px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.download-box button:hover {
+    background: #1d4ed8;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #6b7280;
+}
+
+@media (max-width: 600px) {
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .download-box {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .download-box button {
+        padding: 15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">DownVido</div>
+</header>
+
+<section class="hero">
+
+    <h1>Download Videos Easily</h1>
+
+    <p>
+        Fast and simple video downloader
+    </p>
+
+    <div class="download-box">
+
+        <input
+            type="text"
+            placeholder="Paste video URL here..."
+        >
+
+        <button>
+            Download
+        </button>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 DownVido. All rights reserved.
+</footer>
+
+</body>
+  </html>
