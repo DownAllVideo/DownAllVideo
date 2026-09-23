@@ -267,21 +267,21 @@ footer p {
     <p>
         Paste a video URL below and use DownAllVideo
         for a simple and convenient experience.
-    </p>
+    <<div class="download-box">
 
-    <div class="download-box">
+    <input
+        type="url"
+        id="videoUrl"
+        placeholder="Paste video URL here..."
+    >
 
-        <input
-            type="text"
-            placeholder="Paste video URL here..."
-        >
+    <button onclick="downloadVideo()">
+        Download
+    </button>
 
-        <button>
-            Download
-        </button>
+</div>
 
-    </div>
-
+<p id="downloadMessage" style="margin-top:15px; color:#6b7280;"></p>
 </section>
 
 <section class="features">
